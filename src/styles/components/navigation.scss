@@ -1,0 +1,33 @@
+@import "../utils";
+
+.nav {
+  border-top: 0.5px solid grey;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  list-style: none;
+
+  &__item {
+    padding: 0 18px;
+  }
+
+  & img {
+    width: 30px;
+    height: 30px;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      filter: brightness(0%) contrast(90%);
+    }
+  }
+
+  & .active img {
+    filter: sepia(63%)
+      brightness(80%)
+      hue-rotate(10deg)
+      saturate(500%)
+      contrast(500%);
+  }
+}

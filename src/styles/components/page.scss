@@ -1,0 +1,43 @@
+@import "../utils";
+
+.page {
+  width: $app-width;
+  height: $app-width + 100;
+  position: relative;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+  & h3 {
+    width: calc(100% + 20px);
+    padding: 20px 0;
+    position: sticky;
+    top: -1px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid grey;
+    background: #fff;
+  }
+
+  &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    & button {
+      margin-top: 20px;
+      padding: 20px;
+      width: 70%;
+      border: none;
+      background-color: #d14f00;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

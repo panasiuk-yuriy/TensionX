@@ -1,7 +1,33 @@
 @import "utils";
 @import "fonts";
-@import "typography";
+@import "./components/page.scss";
+@import "./components/navigation.scss";
+@import "./components/store.scss";
 
-body {
-  background: $c-gray;
+body,
+h3,
+p,
+button,
+div {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.amazon {
+  width: $app-width;
+  margin: 0 auto;
+  border: 2px solid grey;
+  box-shadow: 11px 7px 25px -8px rgba(0,0,0,0.75);
+}
+
+.container {
+  height: $app-width + 100;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: inline-flex;
+  position: absolute;
 }

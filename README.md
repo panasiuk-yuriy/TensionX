@@ -1,4 +1,5 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+Test task for TensionX
+
+[DEMO LINK](https://panasiuk-yuriy.github.io/TensionX/)
+
+[test task](https://www.loom.com/share/55d7c737d9814fc397218ee03798165e)
