@@ -1,0 +1,54 @@
+.page {
+  width: 350px;
+  height: 450px;
+  position: relative;
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .page h3 {
+    width: calc(100% + 20px);
+    padding: 20px 0;
+    position: sticky;
+    top: -1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid grey;
+    background: #fff; }
+  .page__content {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 18px; }
+    .page__content button {
+      margin-top: 20px;
+      padding: 20px;
+      width: 70%;
+      border: none;
+      background-color: #d14f00;
+      color: #fff;
+      cursor: pointer; }
+
+/*# sourceMappingURL=page.css.map */
